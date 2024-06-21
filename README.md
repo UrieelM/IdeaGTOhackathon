@@ -35,3 +35,6 @@ Descripción del Proyecto
 
 [Prototipo App figma](https://www.figma.com/design/3890eB7yh5H6LUl5C9G5m9/Hackathon-Mejora-Regulatoria?node-id=0-1)
 - `https://www.figma.com/design/3890eB7yh5H6LUl5C9G5m9/Hackathon-Mejora-Regulatoria?node-id=0-1`
+
+[Presentación CyberSquad](https://www.canva.com/design/DAGIpkvnO_M/rPw9hd_e-Dc9kSsh4uR3pQ/edit?utm_content=DAGIpkvnO_M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- `https://www.canva.com/design/DAGIpkvnO_M/rPw9hd_e-Dc9kSsh4uR3pQ/edit?utm_content=DAGIpkvnO_M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton`
