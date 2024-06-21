@@ -27,3 +27,7 @@ Descripción del Proyecto
 - C# y XAML: Lenguajes de programación utilizados para construir la lógica de la aplicación y diseñar la interfaz de usuario respectivamente.
 
 - Adaptive Dialog de Microsoft: Framework utilizado para desarrollar el chatbot que interactúa con los usuarios, adaptándose a diferentes contextos y necesidades.
+
+## Links
+
+- ChatBot Lucy `https://universidadlasallebajio904-my.sharepoint.com/:w:/g/personal/umr76644_lasallebajio_edu_mx/EQ__8Oat2v1Gv1bEliyKTFkBOmNQ7cm4SMySQDF4kltMQQ?e=KbHM2T`
