@@ -28,7 +28,7 @@
                     Padding="20,60">
                     <Label
                         HorizontalOptions="Center"
-                        Text="Create una cuenta"
+                        Text="Crear una cuenta"
                         TextColor="White"
                         FontFamily="Motserrat"
                         FontSize="30"
@@ -95,7 +95,7 @@
                     
                     <Grid
                         ColumnDefinitions="*"
-                        RowDefinitions="*,*,*,*">
+                        RowDefinitions="*,*,*,*,*">
                         <VerticalStackLayout
                             Grid.Column="0"
                             Grid.Row="0">
@@ -143,10 +143,36 @@
                                     FontAttributes="Bold"/>
                             </Frame>
                         </VerticalStackLayout>
-
+                        
                         <VerticalStackLayout
                             Grid.Column="0"
                             Grid.Row="2">
+                            <Label
+                                Text="Correo"
+                                HorizontalOptions="Start"
+                                Margin="20,10"
+                                FontSize="18"
+                                FontAttributes="Bold"/>
+                            <Frame
+                                CornerRadius="40"
+                                Padding="5"
+                                BackgroundColor="White"
+                                Opacity=".5"
+                                BorderColor="Transparent">
+                                <Entry
+                                    x:Name="entryCorreo"
+                                    TextColor="#B35518"
+                                    FontSize="16"
+                                    FontFamily="Montserrat"
+                                    FontAttributes="Bold"/>
+                            </Frame>
+                        </VerticalStackLayout>
+
+                        
+                        
+                        <VerticalStackLayout
+                            Grid.Column="0"
+                            Grid.Row="3">
                             <Label
                                 Text="Contraseña"
                                 HorizontalOptions="Start"
@@ -191,7 +217,7 @@
 
                         <Button
                             Grid.Column="0"
-                            Grid.Row="3"
+                            Grid.Row="4"
                             Margin="0,40"
                             HeightRequest="55"
                             Padding="10,0"

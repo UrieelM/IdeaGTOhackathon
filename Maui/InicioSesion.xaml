@@ -43,7 +43,7 @@
                             Grid.Row="0"
                             Grid.Column="0"
                             HorizontalOptions="FillAndExpand"
-                            Text="Inicia sesion con Google"
+                            Text="Iniciar sesión con Google"
                             FontSize="16"
                             FontFamily="Montserrat"
                             FontAttributes="Bold"
