@@ -3,16 +3,16 @@
 ## Equipo: CyberSquad
 Integrantes:
 
-Luis Pablo Mujica Vargas
-Kevin Jonathan Tavera Pérez
-Jared Yahir Hernández Delgado 
-Diego Camarena Gutiérrez
-Uriel Mendoza Rodríguez
+- Luis Pablo Mujica Vargas
+- Kevin Jonathan Tavera Pérez
+- Jared Yahir Hernández Delgado 
+- Diego Camarena Gutiérrez
+- Uriel Mendoza Rodríguez
 
 Descripción del Proyecto
-```
-Lucy es una aplicación diseñada para agilizar los trámites burocráticos estatales en Guanajuato, México. Desarrollada por el equipo CyberSquad durante el Hackathon Mejora Regulatoria GTO, esta aplicación utiliza tecnologías de vanguardia para ofrecer una experiencia de usuario fluida y eficiente.
-```
+
+**Lucy es una aplicación diseñada para agilizar los trámites burocráticos estatales en Guanajuato, México. Desarrollada por el equipo CyberSquad durante el Hackathon Mejora Regulatoria GTO, esta aplicación utiliza tecnologías de vanguardia para ofrecer una experiencia de usuario fluida y eficiente.**
+
 
 ## Características Principales
 - Interfaz Intuitiva: Desarrollada con .NET MAUI 8, utilizando C# y XAML, Lucy ofrece una interfaz de usuario moderna y fácil de usar.
