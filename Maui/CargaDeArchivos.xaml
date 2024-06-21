@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrototipoMejoraContinua2.CargaDeArchivos"
+             Title="CargaDeArchivos">
+    <ScrollView>
+        <StackLayout>
+
+            <Frame
+        BackgroundColor="Blue"
+        BorderColor="Transparent"
+        VerticalOptions="FillAndExpand"
+        Padding="20,0">
+                <Frame.Background>
+                    <LinearGradientBrush
+                    StartPoint="0,0"
+                    EndPoint="1,1">
+                        <GradientStop
+                    Color="#8933F4"
+                    Offset="0"/>
+                        <GradientStop
+                    Color="#3A25A6"
+                    Offset=".5"/>
+                    </LinearGradientBrush>
+                </Frame.Background>
+
+                <StackLayout
+                Padding="20,30">
+
+                    <Image
+                    Source="lucy.png"
+                    HeightRequest="40"
+                    HorizontalOptions="Start"/>
+
+                    <Label
+                    Margin="0,20"
+                    Text="Coloca tu identificación oficial dentro del recuadro"
+                    HorizontalOptions="Center"
+                    FontSize="28"
+                    HorizontalTextAlignment="Center"
+                    FontAttributes="Bold"
+                    FontFamily="Montserrat"/>
+
+                    <Grid
+                        Margin="0, 40,0,0"
+                        HeightRequest="250"
+    
+                        RowDefinitions=".5*, .25*,0.25*">
+                        <Image Grid.Row="0" Source="addfiles.png" Aspect="AspectFit" HeightRequest="200" x:Name="placeholderImage"/>
+                        <WebView x:Name="pdfWebView"  WidthRequest="50"  HeightRequest="150" IsVisible="False"/>
+                        <Button Margin="0,80,0,0" HeightRequest="40" Grid.Row="1" Text="Seleccionar archivo PDF" Clicked="OnSelectFileButtonClicked"/>
+                        <Button Margin="0,20,0,-40" HeightRequest="40" Grid.Row="2" Text="Quitar archivo PDF" Clicked="OnRemoveFileButtonClicked" IsEnabled="False" x:Name="removeFileButton"/>
+                    </Grid>
+
+                    <Button
+                    Clicked="btnCargaDeArchivos"
+                    Margin="0,50,0,0"
+                    CornerRadius="35"
+                    BackgroundColor="#F68B3E"
+                    Text="Continuar"
+                    TextColor="White"
+                    FontSize="18"
+                    FontFamily=""/>
+                </StackLayout>
+
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrototipoMejoraContinua2.MainPage">
+
+    <ScrollView>
+        <!--
+        <VerticalStackLayout
+            HorizontalOptions="Center"
+            Padding="20,50,20,0">
+            <VerticalStackLayout.Background>
+                <LinearGradientBrush
+                    StartPoint="0,0"
+                    EndPoint="1,1">
+                    <GradientStop
+                        Color="#8933F4"
+                        Offset="0"/>
+                                    <GradientStop
+                        Color="#3A25A6"
+                        Offset=".5"/>
+                </LinearGradientBrush>
+            </VerticalStackLayout.Background>-->
+        <StackLayout>
+            
+            <Frame
+                    BackgroundColor="Blue"
+                    BorderColor="Transparent"
+                    VerticalOptions="FillAndExpand"
+                    Padding="20,0">
+                <Frame.Background>
+                    <LinearGradientBrush
+                            StartPoint="0,0"
+                            EndPoint="1,1">
+                        <GradientStop
+                            Color="#8933F4"
+                            Offset="0"/>
+                        <GradientStop
+                            Color="#3A25A6"
+                            Offset=".5"/>
+                    </LinearGradientBrush>
+                </Frame.Background>
+
+                <Grid
+                    ColumnDefinitions="*"
+                    RowDefinitions="*,*,100">
+
+                    <Image
+                        Grid.RowSpan="3"
+                        Grid.Row="0"
+                        VerticalOptions="End"
+                        Source="imagendeinicio.png"/>
+
+                    <Label
+                        Grid.Row="0"
+                        Text="Simplificando tu vida, un trámite a la vez"
+                        FontFamily="Montserrat"
+                        FontAttributes="Bold"
+                        FontSize="25"
+                        TextColor="#F68B3E"
+                        HorizontalOptions="Center"
+                        Margin="20,40"/>
+
+                    <VerticalStackLayout
+                        Grid.Row="1"
+                        VerticalOptions="End">
+                        <Button
+                            Clicked="btnInicioSesion"
+                            Text="Inicia Sesion"
+                            CornerRadius="25"
+                            TextColor="#3B26A9"
+                            FontFamily="Montserrat"
+                            FontSize="20"
+                            FontAttributes="Bold"
+                            Background="#F68B3E"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="End"
+                            Margin="20,0"/>
+
+                        <Button
+                            Clicked="btnRegistro"
+                            Text="Registro"
+                            TextColor="#3B26A9"
+                            FontFamily="Montserrat"
+                            FontSize="20"
+                            CornerRadius="25"
+                            FontAttributes="Bold"
+                            Background="#F68B3E"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="End"
+                            Margin="20"/>
+                    </VerticalStackLayout>
+
+                    <ImageButton
+                        Grid.Row="2"
+                        Margin="20,0"
+                        HeightRequest="80"
+                        HorizontalOptions="End"
+                        Source="botasistencia.png"/>
+
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

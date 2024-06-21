@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrototipoMejoraContinua2.Tramites"
+             Title="Tramites">
+    
+    <ScrollView>
+        <StackLayout>
+
+            <Frame
+    BackgroundColor="Blue"
+    BorderColor="Transparent"
+    VerticalOptions="FillAndExpand"
+    Padding="20,0">
+                <Frame.Background>
+                    <LinearGradientBrush
+                StartPoint="0,0"
+                EndPoint="1,1">
+                        <GradientStop
+                Color="#8933F4"
+                Offset="0"/>
+                        <GradientStop
+                Color="#3A25A6"
+                Offset=".5"/>
+                    </LinearGradientBrush>
+                </Frame.Background>
+
+                <StackLayout
+            Padding="20,30">
+
+                    <Image
+                Source="lucy.png"
+                HeightRequest="40"
+                HorizontalOptions="Start"/>
+
+                    <Label
+                Margin="0,60,0,20"
+                Text="Tus trámites"
+                TextColor="#F68B3E"
+                HorizontalOptions="Start"
+                FontSize="20"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"
+                FontFamily="Montserrat"/>
+
+                    <Frame
+                        Opacity=".5"
+                        CornerRadius="20"
+                        HeightRequest="150"
+                        BorderColor="Transparent">
+
+                        <Label
+                            Text="Aún no existen trámites en proceso."
+                            TextColor="Black"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"/>
+
+                    </Frame>
+
+                    <Grid>
+                        <Entry
+                            Grid.Column="0"
+                            Grid.Row="0"
+                            Placeholder="Buscar Tramite"
+                            FontSize="20"
+                            FontFamily="Montserrat"/>
+                        <Image
+                            Grid.Column="0"
+                            Grid.Row="0"
+                            Source="search.png"
+                            HeightRequest="20"
+                            HorizontalOptions="End"/>
+                    </Grid>
+
+                    <Frame
+                        Margin="40"
+                        CornerRadius="40">
+                        <Frame.Background>
+                            <LinearGradientBrush
+                                StartPoint="0,0"
+                                EndPoint="1,1">
+                                <GradientStop
+                                    Color="#F95041"
+                                    Offset="0"/>
+                                <GradientStop
+                                    Color="#F68B3E"
+                                    Offset=".5"/>
+                            </LinearGradientBrush>
+                        </Frame.Background>
+                        <VerticalStackLayout>
+                            <ImageButton
+                                Clicked="btnTramite"
+                                Source="money.png"
+                                HorizontalOptions="Center"
+                                HeightRequest="150"/>
+                            <Label
+                                Text="Economía"
+                                FontAttributes="Bold"
+                                FontFamily="Montserrat"
+                                HorizontalTextAlignment="Center"
+                                FontSize="20"
+                                TextColor="White"
+                                HorizontalOptions="Center"/>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                </StackLayout>
+
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
