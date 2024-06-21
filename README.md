@@ -30,4 +30,8 @@ Descripción del Proyecto
 
 ## Links
 
-- ChatBot Lucy `https://universidadlasallebajio904-my.sharepoint.com/:w:/g/personal/umr76644_lasallebajio_edu_mx/EQ__8Oat2v1Gv1bEliyKTFkBOmNQ7cm4SMySQDF4kltMQQ?e=KbHM2T`
+- ChatBot Lucy 
+`https://universidadlasallebajio904-my.sharepoint.com/:w:/g/personal/umr76644_lasallebajio_edu_mx/EQ__8Oat2v1Gv1bEliyKTFkBOmNQ7cm4SMySQDF4kltMQQ?e=KbHM2T`
+
+- Prototipo App figma
+`https://www.figma.com/design/3890eB7yh5H6LUl5C9G5m9/Hackathon-Mejora-Regulatoria?node-id=0-1`
