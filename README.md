@@ -38,3 +38,6 @@ Descripción del Proyecto
 
 [Presentación CyberSquad](https://www.canva.com/design/DAGIpkvnO_M/rPw9hd_e-Dc9kSsh4uR3pQ/edit?utm_content=DAGIpkvnO_M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - `https://www.canva.com/design/DAGIpkvnO_M/rPw9hd_e-Dc9kSsh4uR3pQ/edit?utm_content=DAGIpkvnO_M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton`
+
+[Resumen Ejecutivo](https://universidadlasallebajio904-my.sharepoint.com/:w:/g/personal/umr76644_lasallebajio_edu_mx/EcR0nCmhCyJBgSl4Q1GbFL4BbwH1Ou0AWVmfRxC7yzbkug?e=F7tRvc)
+- `https://universidadlasallebajio904-my.sharepoint.com/:w:/g/personal/umr76644_lasallebajio_edu_mx/EcR0nCmhCyJBgSl4Q1GbFL4BbwH1Ou0AWVmfRxC7yzbkug?e=F7tRvc`
